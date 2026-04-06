@@ -29,4 +29,9 @@ public class MiniCalculadora {
         return  Math.sqrt(insertarNumero);
     }
 
+    public double valorAbsoluto(){
+        return Math.abs(insertarNumero);
+    }
+    //=====================================================
+
 }
