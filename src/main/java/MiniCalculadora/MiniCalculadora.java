@@ -26,7 +26,10 @@ public class MiniCalculadora {
     //===========MetodosCruds=============================
 
     public double raizCuadrada (){
-        return  Math.sqrt(insertarNumero);
+        if (insertarNumero < 0)
+            return 0;
+        else
+            return  Math.sqrt(insertarNumero);
     }
 
     public double valorAbsoluto(){
