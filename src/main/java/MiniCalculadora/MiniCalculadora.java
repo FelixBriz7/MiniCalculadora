@@ -54,6 +54,15 @@ public class MiniCalculadora {
             return  Math.sqrt(insertarNumero);
     }
 
+    /**
+     * Calcula el valor absoluto del número almacenado.
+     * Convierte cualquier número negativo en su equivalente positivo.
+     *
+     * @return El valor absoluto de insertarNumero
+     * @see Math#abs(double)
+     * @since 1.0
+     */
+
     public double valorAbsoluto(){
         return Math.abs(insertarNumero);
     }
